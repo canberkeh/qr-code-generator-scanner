@@ -18,7 +18,7 @@ def terminator():
                 controller = QrGenerator.generate_qr_code()
             elif choice == "2":
                 from scanner import QrScanner
-                logging.info(f'{QrScanner.__name__} method has been terminated.')
+                logging.info(f'{QrScanner.__name__} has been terminated.')
                 QrScanner.main()
             elif choice == "quit()":
                 logging.info(f'Killing program.')
